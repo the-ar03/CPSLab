@@ -1,0 +1,21 @@
+int redled=13;
+int blueled=12;
+int greenled=11;
+
+void setup()
+{
+  pinMode(redled, OUTPUT);
+  pinMode(blueled,OUTPUT);
+  pinMode(greenled,OUTPUT);
+  Serial.begin(9600);
+  Serial.println("rgb");
+}
+
+void loop()
+{
+  digitalWrite(redled, HIGH);
+  digitalWrite(blueled,HIGH);
+  digitalWrite(greenled,HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+   // Wait for 1000 millisecond(s)
+}
